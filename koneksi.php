@@ -24,5 +24,3 @@ if (mysqli_query($connect, $sql)) {
 } else {
     echo "<br> gagal " . mysqli_error($connect);
 }
-
-mysqli_close($connect);
